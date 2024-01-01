@@ -1,0 +1,22 @@
+Data Description,,
+Column,Description,Dtype
+ID,order ID number,object
+Delivery_person_ID,ID number of the delivery partner,object
+Delivery_person_Age,Age of the delivery partner,object
+Delivery_person_Ratings,Ratings of the delivery partner based on past deliveries,object
+Restaurant_latitude,The latitude of the restaurant,float64
+Restaurant_longitude,The longitude of the restaurant,float64
+Delivery_location_latitude,The latitude of the delivery location,float64
+Delivery_location_longitude,The longitude of the delivery location,float64
+Order_Date,Date of the order,object
+Time_Orderd,Time the order was placed,object
+Time_Order_picked,Time the order was picked,object
+Weatherconditions,Weather conditions of the day,object
+Road_traffic_density,Density of the traffic,object
+Vehicle_condition,Condition of the vehicle,int64
+Type_of_order,The type of meal ordered by the customer,object
+Type_of_vehicle,The type of vehicle delivery partner rides,object
+multiple_deliveries,Amount of deliveries driver picked,object
+Festival,If there was a Festival or no.,object
+City,Type of city,object
+Time_taken(min),The time taken by the delivery partner to complete the order,object
